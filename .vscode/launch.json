@@ -10,6 +10,13 @@
             "name": "Launch Chrome toplist index.html",
             "file" :"${workspaceRoot}/toplist/index.html",
             "webRoot": "${workspaceRoot}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome portfolio test.html",
+            "file" :"${workspaceRoot}/portfolio/test.html",
+            "webRoot": "${workspaceRoot}"
         }
     ]
 }
