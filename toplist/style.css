@@ -12,6 +12,7 @@
 
  .screenshot {
      max-width: 460px;
+     margin-right: 30px;
  }
 
  .description {
@@ -24,7 +25,7 @@
     color: #ffffff;
 }
 
- .app {
+.app {
      display: -webkit-flex;
      display: flex;
- }
+}
