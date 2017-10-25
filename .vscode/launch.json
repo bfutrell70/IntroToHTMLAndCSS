@@ -17,6 +17,13 @@
             "name": "Launch Chrome portfolio test.html",
             "file" :"${workspaceRoot}/portfolio/test.html",
             "webRoot": "${workspaceRoot}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome portfolio2 index.html",
+            "file" :"${workspaceRoot}/portfolio2/index.html",
+            "webRoot": "${workspaceRoot}"
         }
     ]
 }
