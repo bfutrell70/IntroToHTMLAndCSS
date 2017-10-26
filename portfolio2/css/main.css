@@ -9,6 +9,14 @@
     box-sizing: border-box;
 }
 
+h1, h3, a {
+    color: #747704
+}
+
+h2 {
+    color: #bcbbbb
+}
+
 .grid {
     margin: 0 auto;
     max-width: 1200px;
