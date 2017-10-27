@@ -16,7 +16,9 @@ body { width: 980px;  align-content: center}
 }
 
 h1, h3, a {
-    /* Color code in the mock was 747704, which didn't match the color sample on the mock. */
+    /* Color code in the mock PDF was #747704, which didn't match the color sample on the mock. 
+      The color via color picker in Inkscape was what is listed below.
+    */
     color: #5d614fff
 }
 
