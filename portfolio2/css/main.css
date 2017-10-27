@@ -14,11 +14,28 @@
 }
 
 h1, h3, a {
-    color: #747704
+    /* Color code in the mock was 747704, which didn't match the displayed color. */
+    color: #5d614fff
+}
+
+h3, a {
+    text-align: center;
+}
+
+h1 {
+    font-size: 30pt;
 }
 
 h2 {
     color: #bcbbbb
+}
+
+hr {
+    border: none;
+    height: 3px;
+    /* Set the hr color */
+    color: #bcbbbb; /* old IE */
+    background-color: #bcbbbb; /* Modern Browsers */
 }
 
 .grid {
@@ -80,4 +97,8 @@ h2 {
 
 .col-12 {
     width: 100%;
+}
+
+.right-header {
+    text-align: right;
 }
