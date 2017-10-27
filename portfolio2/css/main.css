@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+* {
+    font-family: 'Lato', sans-serif;
+}
+
 h1, h3, a {
     color: #747704
 }
