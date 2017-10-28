@@ -9,6 +9,9 @@ body { width: 980px;  align-content: center}
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+    /* To override the user agent stylesheet. Way too much space on the top and bottom margins. */
+    -webkit-margin-before: .1em;
+    -webkit-margin-after: .1em;
 }
 
 * {
